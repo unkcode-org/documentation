@@ -1,0 +1,52 @@
+[
+	{
+		"label": "Getting Started",
+		"route": "/",
+		"subMenu": true,
+		"subMenuData": [
+			{
+				"label": "Installation",
+				"section": "installation"
+			},
+			{
+				"label": "Setting Up",
+				"section": "setup"
+			},
+			{
+				"label": "Get App Key",
+				"section": "secretkey"
+			}
+		]
+	},
+	{
+		"label": "Security",
+		"route": "/security",
+		"subMenu": true,
+		"subMenuData": [
+			{
+				"label": "Validations",
+				"section": "validations"
+			},
+			{
+				"label": "License State",
+				"section": "licenses"
+			},
+			{
+				"label": "App State",
+				"section": "app"
+			}
+		]
+	},
+	{
+		"label": "FAQ",
+		"route": "/faq",
+		"subMenu": false,
+		"subMenuData": []
+	},
+	{
+		"label": "Support",
+		"route": "/support",
+		"subMenu": false,
+		"subMenuData": []
+	}
+]
