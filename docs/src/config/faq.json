@@ -1,0 +1,33 @@
+{
+	"title": "This is a list of frequently asked questions (FAQs) and answers about UNKCode.",
+	"data": [
+		{
+			"question": "What UNKCode provides for the developers?",
+			"answer": "UNKCode and it's Developer system provides a software license manager and validation. You can also publish your apps in our software store if the apps satisfy all the store requeriments"
+		},
+		{
+			"question": "Is the developer inscription opened?",
+			"answer": "We are working on some details so the inscription is not open yet. Soon we will announce inscription activation date."
+		},
+		{
+			"question": "What requeriments exists to become a developer on UNKCode?",
+			"answer": "Becoming a developer is very easy, you will only need to have an Identification Card or Passport up to date, and in addition a phone number and a bank or paypal account to send your incomes"
+		},
+		{
+			"question": "What requeriments exists to publish products on the store?",
+			"answer": "Your app will be tested by programmers and a lot of malware detectors. In case something weird would be found in your app we will get in touch with you unless there was malware, in that ocassion you will be kicked of the developers program."
+		},
+		{
+			"question": "Register apps on UNKCode will have any cost?",
+			"answer": "No, you can register every app without any cost."
+		},
+		{
+			"question": "How can I create a license for my app?",
+			"answer": "If You need a license to testing get in touch with the page support and they will create a license for testing (max of 5 license per app). For customers the license were genereted on a purchase completed with the gived paypal link."
+		},
+		{
+			"question": "What is the percentage that UNKCode earns on store?",
+			"answer": "UNKCode will keep only with the 5% of the purchase."
+		}
+	]
+}

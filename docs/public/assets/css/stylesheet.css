@@ -2372,8 +2372,8 @@ hr {
 	background: #fff;
 	color: #252b33;
 	margin-left: 260px;
-	padding: 66px 0px;
-	padding: 4.125rem 0;
+	padding: 20px 0px;
+	border-top: 1px solid rgba(0, 0, 0, 0.05);
 }
 #footer .nav .nav-item {
 	display: inline-block;

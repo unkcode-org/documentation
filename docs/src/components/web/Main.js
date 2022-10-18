@@ -47,8 +47,8 @@ const Main = ({ children }) => {
 					<div className="container">{children}</div>
 				</div>
 			</div>
-			<footer id="footer" className="section h-50 bg-dark footer-text-light">
-				<p className="text-center">
+			<footer id="footer" className="footer mt-auto bg-light footer-text-dark">
+				<p className="text-center mt-4">
 					Copyright &copy; 2019 - {new Date().getFullYear()} <a href="https://unkcode.com">UNKCode</a>. All Rights Reserved.
 				</p>
 			</footer>
