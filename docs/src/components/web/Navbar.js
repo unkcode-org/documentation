@@ -11,9 +11,9 @@ const Navbar = () => {
 						<li className="nav-item" key={key}>
 							<NavbarLink to={section.route}>{section.label}</NavbarLink>
 							<ul className="nav flex-column">
-								{section.subMenuData.map((subSection) => {
+								{section.subMenuData.map((subSection, subKey) => {
 									return (
-										<li className="nav-item">
+										<li className="nav-item" key={subKey}>
 											<a className="nav-link" href={subSection.section}>
 												{subSection.label}
 											</a>

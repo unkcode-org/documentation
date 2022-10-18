@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { BsGithub } from "react-icons/bs";
 import { IoIosHome } from "react-icons/io";
 import Navbar from "./Navbar";
-const Main = () => {
+const Main = ({ children }) => {
 	const [activeNav, setActiveNav] = useState(false);
 
 	return (
@@ -44,7 +44,7 @@ const Main = () => {
 				</div>
 
 				<div className="idocs-content">
-					<div className="container"></div>
+					<div className="container">{children}</div>
 				</div>
 			</div>
 			<footer id="footer" className="section h-50 bg-dark footer-text-light">

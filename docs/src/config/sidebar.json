@@ -38,14 +38,23 @@
 		]
 	},
 	{
-		"label": "FAQ",
-		"route": "/faq",
+		"label": "Become a Developer",
+		"route": "/become-dev",
 		"subMenu": false,
-		"subMenuData": []
+		"subMenuData": [
+			{
+				"label": "Inscription",
+				"section": "inscription"
+			},
+			{
+				"label": "Approval",
+				"section": "approval"
+			}
+		]
 	},
 	{
-		"label": "Support",
-		"route": "/support",
+		"label": "FAQ",
+		"route": "/faq",
 		"subMenu": false,
 		"subMenuData": []
 	}
