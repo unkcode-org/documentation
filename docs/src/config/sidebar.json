@@ -13,7 +13,7 @@
 				"section": "setup"
 			},
 			{
-				"label": "Get App Key",
+				"label": "Generate Keys",
 				"section": "secretkey"
 			}
 		]
@@ -40,7 +40,7 @@
 	{
 		"label": "Become a Developer",
 		"route": "/become-dev",
-		"subMenu": false,
+		"subMenu": true,
 		"subMenuData": [
 			{
 				"label": "Inscription",

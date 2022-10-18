@@ -1,6 +1,7 @@
 import React from "react";
 import NavbarLink from "./NavbarLink";
 import sidebarData from "config/sidebar.json";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
 	return (
@@ -13,10 +14,10 @@ const Navbar = () => {
 							<ul className="nav flex-column">
 								{section.subMenuData.map((subSection, subKey) => {
 									return (
-										<li className="nav-item" key={subKey}>
-											<a className="nav-link" href={subSection.section}>
+										<li className="nav-item " key={subKey}>
+											<Link className="nav-link" to={subSection.section.toString()} smooth={true} duration={500} spy={true} exac="true" offset={-90}>
 												{subSection.label}
-											</a>
+											</Link>
 										</li>
 									);
 								})}
